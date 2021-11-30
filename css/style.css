@@ -1,0 +1,41 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color:#111;
+}
+p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+
+}
+a{
+    text-decoration: none;
+                                                      /* vvi */
+    display: inline-block;
+}
+body{
+    overflow-x: hidden;
+}
+header ul .nav-link{
+    padding: 0 !important;
+}
+header ul li{
+    padding-left: 20px;
+}
