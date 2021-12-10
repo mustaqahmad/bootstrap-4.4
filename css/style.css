@@ -39,3 +39,37 @@ header ul .nav-link{
 header ul li{
     padding-left: 20px;
 }
+.form-group button{
+    background-color: transparent;
+    margin: 0 30px;
+    width: 100px;
+    border-radius: 45px 0 45px;
+    border: 1px solid yellow;
+    
+}
+
+.form-group button.right{
+    border-radius:0 45px 0 45px ;
+}
+.form-group button:hover{
+    background-color: red;
+}
+
+#feedback{
+    background-color: #0d0442;
+    color: white;
+    padding: 7% 10%;
+}
+#feedback .hr-style{
+    border: 6px dotted white;
+    border-bottom: none;
+    width: 50px;
+    margin: 0 auto;
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-transform: uppercase;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
